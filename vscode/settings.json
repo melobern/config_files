@@ -1,0 +1,26 @@
+{
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/usr/bin/flatpak-spawn",
+            "args": [
+                "--host",
+                "--env=TERM=xterm-256color",
+                "zsh",
+            ]
+        }
+    },
+    "workbench.colorTheme": "Default Dark Modern",
+    "[c]": {
+        "editor.defaultFormatter": "keyhr.42-c-format"
+    },
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "window.zoomLevel": 3,
+    "editor.fontSize": 12,
+    "git.openRepositoryInParentFolders": "always",
+    "42header.username": "mbernard",
+    "42header.email": "mbernard@student.42lyon.fr",
+}
