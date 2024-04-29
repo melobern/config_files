@@ -104,7 +104,6 @@ alias cdg="/home/mbernard/goinfre"
 alias cdmg="/home/mbernard/sgoinfre/Document_SGOINFRE/My_Git"
 alias cds="/home/mbernard/sgoinfre"
 
-#alias code="flatpak run com.visualstudio.code"
 alias code="/usr/bin/code"
 export PATH="$PATH:/home/mbernard/.local/bin"
 alias cdt="/home/mbernard/Documents/DocSGoinfre/Tools"
