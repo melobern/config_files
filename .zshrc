@@ -70,7 +70,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,17 +103,12 @@ alias cdd="/home/mbernard/Documents"
 alias cdg="/home/mbernard/goinfre"
 alias cdmg="/home/mbernard/sgoinfre/Document_SGOINFRE/My_Git"
 alias cds="/home/mbernard/sgoinfre"
-alias cds="/home/mbernard/sgoinfre"
-alias cdc="/home/mbernard/discovery_piscine/cell04/rush"
 
 #alias code="flatpak run com.visualstudio.code"
 alias code="/usr/bin/code"
 export PATH="$PATH:/home/mbernard/.local/bin"
 alias cdt="/home/mbernard/Documents/DocSGoinfre/Tools"
 alias cdl="cd /home/mbernard/sgoinfre/Document_SGOINFRE/My_Git/so_long/"
-alias cdm="/home/mbernard/sgoinfre/42_minishell.c"
+alias cdm="/home/mbernard/Documents/42_minishell"
+alias cdms="/home/mbernard/sgoinfre/42_minishell.c"
 alias open="xdg-open"
-export PATH="$PATH:/home/mbernard/.local/bin"
-#export PYTHONPATH="$PYTHONPATH:/home/mbernard/.local/lib/python3.8/site-packages"
-plugins=(zsh-syntax-highlighting)
-source /home/mbernard/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
