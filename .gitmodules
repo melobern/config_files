@@ -1,3 +1,6 @@
 [submodule "nvim/kickstart.nvim"]
 	path = nvim/kickstart.nvim
 	url = git@github.com:melobern/kickstart.nvim.git
+[submodule "ZSH/custom/plugins/zsh-syntax-highlighting"]
+	path = ZSH/custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
