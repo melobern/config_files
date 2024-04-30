@@ -1,6 +1,5 @@
 - name: Bootstrap development environment
   hosts: localhost
-
   tasks:
   - name: Install packages with apt
     become: yes
