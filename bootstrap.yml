@@ -1,0 +1,29 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    bootstrap.yml                                      :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mbernard <mbernard@student.42lyon.fr>      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/04/30 17:06:39 by mbernard          #+#    #+#              #
+#    Updated: 2024/04/30 17:23:48 by mbernard         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+- name: Bootstrap development environment
+  hosts: localhost
+
+  tasks:
+  - name: Install packages with apt
+    become: yes
+    ansible.builtin.apt:
+      name:
+        - neovim
+        - snap 
+    state: present
+  - name: Install packages with snap 
+  community.general.snap:
+    name:
+        - clion --classic
+        - code --classic
+    state: present
