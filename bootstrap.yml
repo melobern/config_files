@@ -8,9 +8,3 @@
         - neovim
         - snap 
       state: present
-  - name: Install packages with snap 
-    community.general.snap:
-      name:
-        - clion --classic
-        - code --classic
-      state: present
