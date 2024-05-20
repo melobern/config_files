@@ -99,13 +99,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cdd="/home/mbernard/Documents"
+alias cdd="$HOME/Documents"
 alias cdg="/home/mbernard/goinfre"
 alias cdmg="/home/mbernard/sgoinfre/Document_SGOINFRE/My_Git"
 alias cds="/home/mbernard/sgoinfre"
 
 alias code="/usr/bin/code"
-export PATH="$PATH:/home/mbernard/.local/bin"
+export PATH="$PATH:$HOME.local/bin"
 alias cdt="/home/mbernard/Documents/DocSGoinfre/Tools"
 alias cdl="cd /home/mbernard/sgoinfre/Document_SGOINFRE/My_Git/so_long/"
 alias cdm="/home/mbernard/Documents/42_minishell"
