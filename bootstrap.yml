@@ -6,6 +6,8 @@
     ansible.builtin.apt:
       name:
         - neovim
+        - inkscape
+        - libreoffice
         - snap 
       state: present
   - name: Install community.general collection
