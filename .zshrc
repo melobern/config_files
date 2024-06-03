@@ -63,7 +63,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=/home/melodie/config_files/ZSH/custom/
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
