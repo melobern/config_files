@@ -63,7 +63,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=/home/melodie/config_files/ZSH/custom/
+ZSH_CUSTOM=/home/mbernard/dotfiles/ZSH/custom
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -91,23 +91,34 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+#	BASH MAN COLORS		#
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;93m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+alias cdp="cd /home/mbernard/CPP_00"
+
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cdd="$HOME/Documents"
 alias cdg="/home/mbernard/goinfre"
 alias cdmg="/home/mbernard/sgoinfre/Document_SGOINFRE/My_Git"
 alias cds="/home/mbernard/sgoinfre"
-
+alias push="git push && git push my_git"
+alias pull="git pull && git pull my_git main"
 alias code="/usr/bin/code"
 export PATH="$PATH:$HOME.local/bin"
 alias cdt="/home/mbernard/Documents/DocSGoinfre/Tools"
-alias cdl="cd /home/mbernard/sgoinfre/Document_SGOINFRE/My_Git/so_long/"
-alias cdm="/home/mbernard/Documents/42_minishell"
-alias cdms="/home/mbernard/sgoinfre/42_minishell.c"
 alias open="xdg-open"
+export USER=mbernard
+export MAIL=mbernard@student.42lyon.fr
+export PATH="$PATH:/home/mbernard/.local/bin"
