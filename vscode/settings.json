@@ -10,13 +10,13 @@
             ]
         }
     },
-    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorTheme": "Atom One Dark",
     "[c]": {
         "editor.defaultFormatter": "keyhr.42-c-format"
     },
     "editor.wordWrap": "on",
     "editor.minimap.enabled": false,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "files.autoSave": "onFocusChange",
     "window.zoomLevel": 3,
     "editor.fontSize": 12,
