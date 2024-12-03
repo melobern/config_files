@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=CLion
-Icon=/opt/clion-2024.1.1/bin/clion.png
+Icon=/opt/clion/bin/clion.png
 Exec=/usr/bin/clion
 Comment=The Drive to Develop
 Categories=Development;IDE;

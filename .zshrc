@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export PATH=$PATH:/home/melodie/.local/bin
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -110,6 +110,7 @@ alias cdp="cd /home/mbernard/CPP_00"
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cdd="$HOME/Documents"
+alias cdc="$HOME/Documents/42_cub3D"
 alias cdg="/home/mbernard/goinfre"
 alias cdmg="/home/mbernard/sgoinfre/Document_SGOINFRE/My_Git"
 alias cds="/home/mbernard/sgoinfre"
@@ -122,3 +123,5 @@ alias open="xdg-open"
 export USER=mbernard
 export MAIL=mbernard@student.42lyon.fr
 export PATH="$PATH:/home/mbernard/.local/bin"
+export JAVA_HOME=/opt/jdk-21.0.5+11
+export PATH=$PATH:$JAVA_HOME/bin:$PATH
