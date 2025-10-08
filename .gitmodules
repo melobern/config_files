@@ -6,4 +6,4 @@
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 [submodule "nvim"]
 	path = nvim
-	url = ./nvim
+	url = https://github.com/melobern/kickstart.nvim

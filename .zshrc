@@ -63,7 +63,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=/home/mbernard/dotfiles/ZSH/custom
+ZSH_CUSTOM=/home/mbernard/config_files/ZSH/custom
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -117,7 +117,7 @@ alias cds="/home/mbernard/sgoinfre"
 alias push="git push && git push my_git"
 alias pull="git pull && git pull my_git main"
 alias code="/usr/bin/code"
-export PATH="$PATH:$HOME.local/bin"
+export PATH="$PATH:$HOME/.local/bin"
 alias cdt="/home/mbernard/Documents/DocSGoinfre/Tools"
 alias open="xdg-open"
 export USER=mbernard
@@ -125,3 +125,5 @@ export MAIL=mbernard@student.42lyon.fr
 export PATH="$PATH:/home/mbernard/.local/bin"
 export JAVA_HOME=/opt/jdk-21.0.5+11
 export PATH=$PATH:$JAVA_HOME/bin:$PATH
+alias nvimenv="source /home/mbernard/config_files/nvim/nvimenv/bin/activate"
+export PATH=~/.npm-global/bin:$PATH
