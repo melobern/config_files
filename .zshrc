@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$PATH:/home/melodie/.local/bin
+export PATH=/home/melodie/.local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -127,3 +127,15 @@ export JAVA_HOME=/opt/jdk-21.0.5+11
 export PATH=$PATH:$JAVA_HOME/bin:$PATH
 alias nvimenv="source /home/mbernard/config_files/nvim/nvimenv/bin/activate"
 export PATH=~/.npm-global/bin:$PATH
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+alias blue="~/utils_scripts/blue42"
+alias keepass="/home/mbernard/Documents/KeePass/AppRun"
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /home/mbernard/.local/bin/terraform terraform
